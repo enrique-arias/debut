@@ -1,0 +1,6 @@
+{
+  "id": "Long",
+  "name": "String",
+  "gender": "String (possible values 'Female', 'Male', 'Genderless' or 'unknown')",
+  "picture": "String"
+}

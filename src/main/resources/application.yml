@@ -1,0 +1,6 @@
+spring:
+  profiles.active: local
+
+logging:
+  level:
+    org.springframework.web: INFO
