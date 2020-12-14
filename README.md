@@ -17,7 +17,7 @@ The topic is characters from Rick and Morty.
 ### Sources
 - Local database. 
     - It doesn't need to be a real database, just a list on memory would be enough.
-    - Model definition (TODO add link)
+    - Model definition defined on [characters-entity-definition.json](https://github.com/debutcareers/debut-be-exercise-api/blob/master/src/main/resources/characters-entity-definition.json)
 - First page of Characters endpoint from [Rick and Morty API](https://rickandmortyapi.com/documentation/#rest)
 
 ### Endpoints
