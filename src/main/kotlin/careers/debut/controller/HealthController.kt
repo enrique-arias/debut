@@ -1,4 +1,4 @@
-package careers.debut.example.controller
+package careers.debut.controller
 
 
 import mu.KLogging
@@ -11,11 +11,13 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 @RequestMapping("/health")
-class ExampleController {
+class HealthController {
     
     @GetMapping
-    fun healthCheck() = ResponseEntity("OK", OK)
-        .also { logger.info { "Everything looks good!" } }
+    fun healthCheck(): ResponseEntity<String> {
+        logger.info { "Everything looks good!" }
+        return ResponseEntity("OK", OK)
+    }
 
     companion object : KLogging()
 }

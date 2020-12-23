@@ -60,6 +60,8 @@ dependencies {
     implementation 'org.jetbrains.kotlin:kotlin-stdlib'
     implementation 'org.jetbrains.kotlin:kotlin-reflect'
     implementation 'io.github.microutils:kotlin-logging:1.5.4'
+    implementation 'org.hibernate:hibernate-core:5.2.15.Final'
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.30',
 
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'junit', module: 'junit'
